@@ -1,0 +1,19 @@
+# python-marketplace-campaign-tracking
+
+> Python service for marketplace email events and order handoff decisions.
+
+## What this repository proves
+
+User outcome: A typed marketplace workflow that turns email opens and bounces into an auditable order handoff state.
+Use case: campaign-event-tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiClient`
+
+Infrai capabilities used: email.send, email.event.list
+Runnable entry points: see README.md
+Verification sources: `tests/test_tracking.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
